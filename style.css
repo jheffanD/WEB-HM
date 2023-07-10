@@ -21,7 +21,7 @@
 }
 
 #kel12 {
-  background-color: #eee;
+  background-color: #ffffff;
 }
 
 .judul,
@@ -81,7 +81,7 @@ h4:hover:after {
 
 /* Navbar */
 .nav-side {
-  background-color: #7a3081;
+  background-color: #d7d6d7;
 }
 
 .navbar {
@@ -619,7 +619,7 @@ b {
 /* MOBILE VERSION */
 @media (max-width: 991px) {
   .nav-top {
-    background-color: #7a3081;
+    background-color: #d7d6d7;
   }
 
   .content-scroll .card-body {
