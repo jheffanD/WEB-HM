@@ -12,7 +12,7 @@
     <title>Login Mahasiswa</title>
     <style>
         body{
-            background-image: url(img/hm/projek\ Organisasi\ Struktur.png);
+            background-image: url(img/hm/projek\ Organisasi.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -24,7 +24,7 @@
         }
 
         .container .card{
-            top: 50%;
+            top: 55%;
             left: 50%;
             transform: translate(-50%, -50%);
             position: absolute;
@@ -32,7 +32,7 @@
             padding-left: 25px;
             padding-right: 25px;
             width: 560px;
-            height: 705px;
+            height: 645px;
             max-width: 560px; /* Menggunakan max-width agar kotak tetap responsif */
             width: 100%; /* Mengatur lebar kotak menjadi 100% */
 
@@ -66,8 +66,11 @@
         .btn-signin{
             background-color: #f0912b;
             color: #fff;
-            height: 50px;
             width: 200px;
+            height: auto;
+            padding: 10px 20px;
+            position: relative;
+            overflow: hidden;
         }
         .btn-signin:hover{
             background-color: #b87023;
@@ -90,16 +93,16 @@
             <div class="card">
                 <div class="card-body">
                     <form class="form-signin" method="POST" action="mhs-dashboard.html">
-                        <div class="text-center mb-4">
+                        <div class="text-center mb-10">
                             <a href="index.html">
-                                <img class="mb-4" src="img/hm/Logo HMIF.jpg" alt="" width="200" height="200">
+                                <img class="mb-4" src="img/hm/Logo HMIF.jpg" alt="" width="150" height="150">
                             </a>
                         </div>
                         <input type="text" id="nim" class="form-control" placeholder="Enter your name" required="" autofocus="">
                         <input type="email" id="emai" class="form-control" placeholder="Enter your email" required="">
                         <input type="password" id="pwd1" class="form-control" placeholder="Enter your password" required="">
                         <input type="password" id="pwd2" class="form-control" placeholder="confir your password" required="">
-                        <a class="btn btn-signin btn-lg mb-3" type="submit">LOGIN</a>
+                        <a class="btn btn-signin btn-lg mb-1" type="submit">LOGIN</a>
                         <br>
                         <a href="mhs-login.html">SIGN-IN</a>
 
