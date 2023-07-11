@@ -718,17 +718,27 @@ button.next-gallery img:hover, button.before-gallery img:hover{
   display: flex;
   justify-content: center;
 }
+.back-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+  margin-top: 1em;
+  padding-bottom: none;
+}
+
+
 .btn-pill{
   margin-top: 3em;
   border-radius: 10em;
   margin-right: 1.5em;
-  border: 2px solid var(--blue);
-  color: var(--blue);
+  border: 2px solid var(--gray);
+  color: var(--black);
+  /* box-shadow: black; */
   background-color: white;
 }
 .btn-pill.active, .btn-pill:hover{
-  border-color: var(--blue);
-  background-color: var(--blue);
+  /* border-color:; */
+  background-color: #FBD85D;
   color: white;
 }
 /* END filter-division section */

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kostom.css">
+    <link rel="icon" type="image/x-icon" href="assets/logo_hmif.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Beranda - HMIF USD</title>
+</head>
+
+<body>
+
+    <div class="back-icon">
+        <a href="profil.html" class="back-link">
+            <i class="fas fa-arrow-left"></i> Kembali
+        </a>
+    </div>
+
+    <section class="filter-division container">
+        <button class="btn-pill active" id="btn-pemda" onclick="changeDivisionFilter('pemda')">KADERISASI</button>
+        <button class="btn-pill" id="btn-advo" onclick="changeDivisionFilter('advo')">MEDIAINFORMASI</button>
+        <button class="btn-pill" id="btn-organ" onclick="changeDivisionFilter('organ')">ORGANISASI</button>
+        <button class="btn-pill" id="btn-kesek" onclick="changeDivisionFilter('kesek')">KESEKRETARIATAN</button>
+    </section>
+
+    <!-- Pemda -->
+    <div id="pemda">
+        <section class="divisi container" id="divisi-pemda">
+            <div class="divisi-left">
+                <img src="img/hm/Bulat Department/Kaderisasi.png" alt="Department Kaderisasi 2023">
+                <p>Department Kaderisasi 2023</p>
+            </div>
+            <div class="divisi-right">
+                <div class="divisi-item what-is-hmif">
+                    <h2>Tugas Department Kaderisasi</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis suscipit esse, eos sequi dolor
+                        aliquid similique mollitia repudiandae atque aliquam ratione animi dolorem eum id commodi
+                        dolorum eius provident tempora.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="program container" id="program-pemda">
+            <h2>Biro</h2>
+            <div class="program-wrapper">
+                <div class="program-item ">
+                    <div class="program-title">1.Kaderisasi</div>
+                    <div class="program-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia esse possimus pariatur totam
+                            dolore sapiente illo laborum aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                            nulla unde maxime non.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <div class="anchor" id="structure-pemda"></div>
+        <section class="org-structure container">
+            <h2>Anggota Department<span class="br">Kaderisasi</span> <span class="br">HMIF 2023</span></h2>
+            <div class="org-structure-wrapper">
+                <div class="structure-card">
+                    <img src="assets/pemda-indira.png" alt="">
+                    <h3>Indra Yunia</h3>
+                    <p>Coordinator<br>(Angkatan 2019)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/pemda-nurul.png" alt="">
+                    <h3>Nurul Wahida</h3>
+                    <p>Sekretaris<br>(Angkatan 2020)</p>
+                </div>
+
+
+
+        </section>
+    </div>
+
+    <!-- MEDINFO -->
+    <div class="hide" id="advo">
+        <section class="divisi container" id="divisi-advo">
+            <div class="divisi-left">
+                <img src="img/hm/Bulat Department/MediaInformasi.png" alt="">
+                <p>Department MediaInformasi 2023</p>
+            </div>
+            <div class="divisi-right">
+                <div class="divisi-item what-is-hmif">
+                    <h2>Tugas Department Media Informasi</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis suscipit esse, eos sequi dolor
+                        aliquid similique mollitia repudiandae atque aliquam ratione animi dolorem eum id commodi
+                        dolorum eius provident tempora.</p>
+                </div>
+            </div>
+        </section>
+        <section class="program container" id="program-pemda">
+            <h2>Biro</h2>
+            <div class="program-wrapper">
+                <div class="program-item left">
+                    <div class="program-title">1.Publikasi</div>
+                    <div class="program-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia esse possimus pariatur totam
+                            dolore sapiente illo laborum aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                            nulla unde maxime non.</p>
+                    </div>
+                </div>
+                <div class="program-item left">
+                    <div class="program-title">2.Media kreatif</div>
+                    <div class="program-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia esse possimus pariatur totam
+                            dolore sapiente illo laborum aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                            nulla unde maxime non.</p>
+                    </div>
+                </div>
+                <div class="program-item right">
+                    <div class="program-title">3.Multimedia</div>
+                    <div class="program-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia esse possimus pariatur totam
+                            dolore sapiente illo laborum aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                            nulla unde maxime non.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="anchor" id="structure-advo"></div>
+        <section class="org-structure container">
+            <h2>Anggota Department<span class="br">Media Informasi</span> <span class="br">HMIF 2023</span></h2>
+            <div class="org-structure-wrapper">
+                <div class="structure-card">
+                    <img src="assets/advo-dinan.png" alt="">
+                    <h3>Lalu Herdinan Eka T.</h3>
+                    <p>Coordinator<br>(Angkatan 2019)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/advo-fahrez.png" alt="">
+                    <h3>Fahreza Aldi Kusuma</h3>
+                    <p>Anggota<br>(Angkatan 2019)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/advo-rafli.png" alt="">
+                    <h3>Rafli Gunawan Hadi</h3>
+                    <p>Anggota<br>(Angkatan 2019)</p>
+                </div>
+            </div>
+            <div class="org-structure-wrapper">
+                <div class="structure-card">
+                    <img src="assets/advo-alfiana.png" alt="">
+                    <h3>Alfiana Ayuan Sari</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/advo-alisya.png" alt="">
+                    <h3>Alisyia Kornelia U.</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/advo-daus.png" alt="">
+                    <h3>Muh. Firdaus</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+            </div>
+            <div class="org-structure-wrapper">
+                <div class="structure-card">
+                    <img src="assets/advo-nadya.png" alt="">
+                    <h3>Nadya Amara</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+
+                <div class="structure-card">
+                    <img src="assets/advo-nurun.png" alt="">
+                    <h3>Nurun Latifah</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/advo-nurun.png" alt="">
+                    <h3>Nurun Latifah</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/advo-nurun.png" alt="">
+                    <h3>Nurun Latifah</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <!-- ORGAN -->
+    <div class="hide" id="organ">
+        <section class="divisi container" id="divisi-organ">
+            <div class="divisi-left">
+                <img src="assets/organ.png" alt="Divisi Organisasi 2022">
+                <p>Divisi Organisasi 2022</p>
+            </div>
+            <div class="divisi-right">
+                <div class="divisi-item what-is-hmif">
+                    <h2>Tugas Divisi Organisasi</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis suscipit esse, eos sequi dolor
+                        aliquid similique mollitia repudiandae atque aliquam ratione animi dolorem eum id commodi
+                        dolorum eius provident tempora.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="program container" id="program-pemda">
+            <h2>Biro</h2>
+            <div class="program-wrapper">
+                <div class="program-item left">
+                    <div class="program-title">2. Komunitas</div>
+                    <div class="program-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia esse possimus pariatur totam
+                            dolore sapiente illo laborum aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                            nulla unde maxime non.</p>
+                    </div>
+                </div>
+                <div class="program-item left">
+                    <div class="program-title">3. Sosialisasi Lab</div>
+                    <div class="program-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia esse possimus pariatur totam
+                            dolore sapiente illo laborum aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                            nulla unde maxime non.</p>
+                    </div>
+                </div>
+                <div class="program-item right">
+                    <div class="program-title">4. Kelompok Belajar</div>
+                    <div class="program-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia esse possimus pariatur totam
+                            dolore sapiente illo laborum aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                            nulla unde maxime non.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="anchor" id="structure-organ"></div>
+        <section class="org-structure container">
+            <h2>Anggota Divisi <span class="br">Organisasi HMIF 2022</span></h2>
+            <div class="org-structure-wrapper">
+                <div class="structure-card">
+                    <img src="assets/organ-aura.png" alt="">
+                    <h3>Aura Trisdayanti.</h3>
+                    <p>Coordinator<br>(Angkatan 2019)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/organ-husnu.png" alt="">
+                    <h3>Husnul Khotimah</h3>
+                    <p>Anggota<br>(Angkatan 2019)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/organ-fira.png" alt="">
+                    <h3>Novianda Shafira S.Y</h3>
+                    <p>Anggota<br>(Angkatan 2019)</p>
+                </div>
+            </div>
+            <div class="org-structure-wrapper">
+                <div class="structure-card">
+                    <img src="assets/organ-lala.png" alt="">
+                    <h3>Lala Rianti L. P</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/organ-putri.png" alt="">
+                    <h3>Nur Rahmah Utami P.</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/organ-ami.png" alt="">
+                    <h3>Nurul Umami</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+            </div>
+            <div class="org-structure-wrapper">
+                <div class="structure-card">
+                    <img src="assets/organ-arsyad.png" alt="">
+                    <h3>Ahmad Arsyad S. M</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/organ-nova.png" alt="">
+                    <h3>M. Halimudin Nova</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/organ-zidan.png" alt="">
+                    <h3>Mursyidhan Ariefbillah</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- KESEK -->
+    <div class="hide" id="kesek">
+        <section class="divisi container" id="divisi-kesek">
+            <div class="divisi-left">
+                <img src="assets/kesek.png" alt="Divisi Kesekretariatan 2022">
+                <p>Divisi Kesekretariatan 2022</p>
+            </div>
+            <div class="divisi-right">
+                <div class="divisi-item what-is-hmif">
+                    <h2>Tugas Divisi Kesekretariatan</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis suscipit esse, eos sequi dolor
+                        aliquid similique mollitia repudiandae atque aliquam ratione animi dolorem eum id commodi
+                        dolorum eius provident tempora.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="program container" id="program-pemda">
+            <h2>Biro</h2>
+            <div class="program-wrapper">
+                <div class="program-item left">
+                    <div class="program-title">2. Komunitas</div>
+                    <div class="program-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia esse possimus pariatur totam
+                            dolore sapiente illo laborum aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                            nulla unde maxime non.</p>
+                    </div>
+                </div>
+                <div class="program-item left">
+                    <div class="program-title">3. Sosialisasi Lab</div>
+                    <div class="program-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia esse possimus pariatur totam
+                            dolore sapiente illo laborum aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                            nulla unde maxime non.</p>
+                    </div>
+                </div>
+                <div class="program-item right">
+                    <div class="program-title">4. Kelompok Belajar</div>
+                    <div class="program-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia esse possimus pariatur totam
+                            dolore sapiente illo laborum aliquam ab explicabo quos, eum placeat velit doloribus. Tenetur
+                            nulla unde maxime non.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="anchor" id="structure-kesek"></div>
+        <section class="org-structure container">
+            <h2>Anggota Divisi <span class="br">Kesekretariatan HMIF 2022</span></h2>
+            <div class="org-structure-wrapper">
+                <div class="structure-card">
+                    <img src="assets/sekret-dedy.png" alt="">
+                    <h3>Dedy Razuna A.</h3>
+                    <p>Coordinator<br>(Angkatan 2019)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/sekret-lanang.png" alt="">
+                    <h3>M. Lanang Agung A.</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/sekret-kholilul.png" alt="">
+                    <h3>M. Kholilul Adrian</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+            </div>
+            <div class="org-structure-wrapper">
+                <div class="structure-card">
+                    <img src="assets/sekret-anggun.png" alt="">
+                    <h3>Anggun Dwi Rizkika</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/sekret-yuni.png" alt="">
+                    <h3>Wahyuningsih</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/sekret-latifatul.png" alt="">
+                    <h3>Lathifatul Mahabbati</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+            </div>
+            <div class="org-structure-wrapper">
+                <div class="structure-card">
+                    <img src="assets/sekret-agung.png" alt="">
+                    <h3>Nugroho Agung Prasetiyo</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+                <div class="structure-card">
+                    <img src="assets/sekret-azam.png" alt="">
+                    <h3>Moh. Azzam Al Husaini</h3>
+                    <p>Anggota<br>(Angkatan 2020)</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="/js/stay.js"></script>
+</body>
+
+</html>
