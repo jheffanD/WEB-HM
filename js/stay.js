@@ -42,21 +42,25 @@ function changeDivisionFilter(division) {
 	const btnOrgan = document.getElementById("btn-organ");
 	const btnAdvo = document.getElementById("btn-advo");
 	const btnKesek = document.getElementById("btn-kesek");
+	const btnsosial = document.getElementById("btn-sosial");
 
 	const pemda = document.getElementById("pemda");
 	const organ = document.getElementById("organ");
 	const advo = document.getElementById("advo");
 	const kesek = document.getElementById("kesek");
+	const sosial = document.getElementById("sosial");
 
 	kesek.classList.add("hide");
 	pemda.classList.add("hide");
 	advo.classList.add("hide");
 	organ.classList.add("hide");
+	sosial.classList.add("hide");
 
 	btnPemda.classList.remove("active");
 	btnOrgan.classList.remove("active");
 	btnAdvo.classList.remove("active");
 	btnKesek.classList.remove("active");
+	btnsosial.classList.remove("active");
 
 	const btn = document.getElementById("btn-" + division);
 	const filter = document.getElementById(division);
