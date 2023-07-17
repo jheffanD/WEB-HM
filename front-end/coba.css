@@ -18,7 +18,7 @@ h1 {
     height: 25em;
     margin: 2rem auto;
     border: 8px solid;
-    border-image:var(rgb(78, 78, 78));
+    border-image: var(rgb(78, 78, 78));
     transition: 0.3s ease-in-out;
     position: relative;
     overflow: hidden;
@@ -79,8 +79,8 @@ h1 {
 .dot {
     width: 14px;
     height: 14px;
-    background: #543A3A;
-    border: 1px solid indigo;
+    background: #557A46;
+    border: 1px solid #000000;
     border-radius: 50%;
     transition: 0.3s ease-in-out 0.3s;
 }
