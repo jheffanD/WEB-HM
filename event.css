@@ -55,7 +55,7 @@
     width : 100%;
     height: 89vh;
     position : relative;
-    background: url("/img/hm/event/Web\ HMIF.png"),white;
+    background: url("/img/hm/event/Web\ HMIF.png");
     background-position : center;
     background-repeat : no-repeat;
     background-size:100%;
@@ -91,7 +91,7 @@
     top:-132px;
     z-index:98;
     height:139px;
-    background-image: url('../img/Ellipse\ 1.png');
+    background-image: url('/img/hm/Gambar_WhatsApp-removebg-preview.png');
     background-position: center;
     background-repeat:no-repeat;
     background-size:100%;
