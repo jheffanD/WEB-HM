@@ -290,7 +290,9 @@ h4:hover:after {
 }
 
 .tombol:hover {
-  color: #fff;
+  background-color: #C2CFD8;
+  color: black;
+  cursor: pointer;
 }
 
 .tombol-al:hover {
